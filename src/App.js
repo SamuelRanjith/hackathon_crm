@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import LandingPage from "./components/LandingPage";
 import Register from "./components/Register";
 //ADMIN ROUTES
-import AdminLogin from "./components/admin/AdminLogin";
+import AdminLogin from "./components/admin";
 
 import AdminServiceRequest from "./components/admin/ServiceRequest/ServiceRequest";
 import AdminService from "./components/admin/ServiceRequest/Service";
