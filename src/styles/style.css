@@ -3,12 +3,12 @@
           box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  font-family: "Mulish", sans-serif;
+  font-family:Roboto sans-serif Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #212121;
+  background-color: rgb(245, 245, 244);
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-font-smoothing: antialiased;
@@ -93,7 +93,7 @@ body ::-webkit-scrollbar-thumb:hover {
   font-family: "Mulish";
   letter-spacing: 0.2;
   font-weight: bold;
-  color: #ffdf34;
+  color: black;
   font-size: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -107,6 +107,8 @@ body ::-webkit-scrollbar-thumb:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border: 0px;
+  border-radius: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -142,7 +144,7 @@ body ::-webkit-scrollbar-thumb:hover {
   font-family: "Mulish";
   letter-spacing: 0.2;
   font-weight: bold;
-  color: #ffdf34;
+  color: black;
   font-size: 2rem;
   text-transform: uppercase;
   margin: 2rem auto;
@@ -161,7 +163,7 @@ body ::-webkit-scrollbar-thumb:hover {
   border: none;
   cursor: pointer;
   border-radius: 50em;
-  background-color: #897eff;
+  background-color: #2c1dce;
   text-transform: uppercase;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
@@ -232,8 +234,8 @@ body ::-webkit-scrollbar-thumb:hover {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 1rem;
-  background-color: #ffdf34;
-  border-radius: 50%;
+  background-color: skyblue;
+  border-radius: 100%;
   width: 200px;
   height: 200px;
   text-align: center;
@@ -294,7 +296,7 @@ body ::-webkit-scrollbar-thumb:hover {
   font-family: "Mulish";
   letter-spacing: 0.2;
   font-weight: bold;
-  color: #ffdf34;
+  color: black;
   font-size: 2rem;
   text-transform: uppercase;
   margin: 2rem auto;
